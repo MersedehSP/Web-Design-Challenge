@@ -22,80 +22,89 @@
 
   <div class="container-sourcecode">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand mainbutton" href="landing.html">Lattitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsourcecode" aria-controls="navbarsourcecode" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="col-7"></div>
-    <div class="collapse navbar-collapse" id="navbarsourcecode">
-      <ul class="navbar-nav mr-auto">
-        <li class="navtabs-item dropdown option menu">
-          <a class="navtabs-link dropdown" id="navtabsdropdown" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">plot</a>
-          <div class="dropdown-menu-show" aria-labelledby="navtabdropdown">
-            <a class="dropdown-item" href="Temperature.html">Lattitude vs. Max Temp</a>
-            <a class="dropdown-item" href="Humidity.html">Lattitude vs. Max Humidity</a>
-            <a class="dropdown-item" href="Cloudiness.html">Lattitude vs. Cloudiness</a>
-            <a class="dropdown-item" href="WindSpeed.html">Lattitude vs. Wind Speed</a>
+      <a class="navbar-brand" href="index.html">Latitude</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plot
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+      <div class="row">
+          <div class="col-12 body">
+              <br>
           </div>
-        </li>
-        <li class="navtabs-button">
-          <a class="navtabs-link" href="comparison.html">Comparison</a>
-        </li>
-        <li class="navtabs-button">
-            <a class="navtabs-link" href="data.html">Data</a>
-        </li>
-      </ul>
+      </div>
+      <div class="row">
+          <div class="col-7 middletitle">Summary: Lattitude vs. X</div>
+          <div class="col-1 body d-none d-lg-block"></div>
+          <div class="col-2 middletitle d-none d-lg-block">Vizualizations</div>
+      </div>
+      <div class="row">
+          <div class="col-5"></div>
+          <div class="col-1 body"></div>
     </div>
-  </nav>
-    <div class="row">
-        <div class="col-12 body">
-            <br>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-7 middletitle">Summary: Lattitude vs. X</div>
-        <div class="col-1 body d-none d-lg-block"></div>
-        <div class="col-2 middletitle d-none d-lg-block">Vizualizations</div>
-    </div>
-    <div class="row">
-        <div class="col-5"></div>
-        <div class="col-1 body"></div>
-   </div>
-    <div class="row">
-        <a href="Temperature.html" class="col-lg-3 col-sm-12"><img width=350 src="assets/Fig1.png"></a>
-        <div class="col-lg-4 col-sm-12">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset an over 500 cities. 
-        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </div>
-        <div class="col-lg-1 d-none d-lg-block body"></div>
-        <a href="Temperature.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/Fig1.png"></a>
-        <a href="Humidity.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/Fig2.png"></a>
-    </div>
-    <div class="row">
-        <div class="col-lg-7 col-sm-12"></div>
-        <div class="col-lg-1 body col-sm-0"></div>
-        <a href="Cloudiness.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/Fig3.png"></a>
-        <a href="WindSpeed.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/Fig4.png"></a>
-    </div>
-    <div class="row">
-        <div class="col-12 body"><br></div>
-    </div>
+      <div class="row">
+          <a href="Temperature.html" class="col-lg-3 col-sm-12"><img width=350 src="assets/images/Fig1.png"></a>
+          <div class="col-lg-4 col-sm-12">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset an over 500 cities. 
+          After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </div>
+          <div class="col-lg-1 d-none d-lg-block body"></div>
+          <a href="Temperature.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/images/Fig1.png"></a>
+          <a href="Humidity.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/images/Fig2.png"></a>
+      </div>
+      <div class="row">
+          <div class="col-lg-7 col-sm-12"></div>
+          <div class="col-lg-1 body col-sm-0"></div>
+          <a href="Cloudiness.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/images/Fig3.png"></a>
+          <a href="WindSpeed.html" class="col-2 d-none d-lg-block"><img width=250 src="assets/images/Fig4.png"></a>
+      </div>
+      <div class="row">
+          <div class="col-12 body"><br></div>
+      </div>
 
 
-    <div class="col-6 middletitle d-lg-none">Vizualizations</div>
-    <div class="row">
-        <a href="Temperature.html" class="col-6 d-lg-none"><img width=250 src="assets/Fig1.png"></a>
-        <a href="Humidity.html" class="col-6 d-lg-none"><img width=250 src="assets/Fig2.png"></a>
+      <div class="col-6 middletitle d-lg-none">Vizualizations</div>
+      <div class="row">
+          <a href="Temperature.html" class="col-6 d-lg-none"><img width=250 src="assets/images/Fig1.png"></a>
+          <a href="Humidity.html" class="col-6 d-lg-none"><img width=250 src="assets/images/Fig2.png"></a>
+      </div>
+      <div class="row">
+          <a href="Cloudiness.html" class="col-6 d-lg-none"><img width=250 src="assets/images/Fig3.png"></a>
+          <a href="WindSpeed.html" class="col-6 d-lg-none"><img width=250 src="assets/images/Fig4.png"></a>
+      </div>
+
     </div>
-    <div class="row">
-        <a href="Cloudiness.html" class="col-6 d-lg-none"><img width=250 src="assets/Fig3.png"></a>
-        <a href="WindSpeed.html" class="col-6 d-lg-none"><img width=250 src="assets/Fig4.png"></a>
-    </div>
-  <!-- Javascript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+
+
+  
 </body>
 
 </html>
