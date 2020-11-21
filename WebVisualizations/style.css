@@ -1,1 +1,23 @@
 /* Your stylesheet */
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #168492;
+    font-size: 20px;
+  }
+  
+
+  
+  /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background:  #89a4b1;
+    border-radius: 3px;
+    font-size: 20px;
+  }
+  
+  
+  
